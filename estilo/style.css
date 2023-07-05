@@ -30,7 +30,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    t: translate(-40% -40%);
+    transform: translate(-50% -50%);
     overflow: hidden;
 
 
@@ -38,13 +38,14 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 }
 
 section#login > div#imagem {
-    background: #5f2c82 url(../imagens/pexels-scott-webb-139198.jpg) no-repeat;
+    display: block;
+    background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
-    background-position: bottom bottom;
+    background-position: left bottom;
     height: 200px;
 }
 
